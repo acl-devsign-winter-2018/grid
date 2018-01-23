@@ -4,12 +4,13 @@ import './app.css';
 import { removeChildren } from '../dom';
 import Header from './Header';
 import Beginning from '../pages/beginning/Beginning';
+import Saftey from '../pages/saftey/Saftey';
 
 const template = new Template(html);
 
 const map = new Map();
 map.set('#beginning', Beginning);
-// map.set('#login', Login);
+map.set('#saftey', Saftey);
 
 export default class App {
 
