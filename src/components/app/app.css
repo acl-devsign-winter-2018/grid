@@ -29,10 +29,23 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    grid-gap: 20px;
   }
 .content .wide{
     color:blue;
     grid-column-end: span 2;
+}
+
+.slide h3 {
+    display: inline-block;
+    height: 3rem;
+    border-bottom: 2px solid#f80;
+    font-size: 2rem;
+    
+}
+.slide h4 {
+    text-align: center;
+    font-size: 1.4rem;
 }
 
 
