@@ -1,28 +1,14 @@
-Lab: Grid
+Objective
 ===
 
-## Lab Instructions
-* Create a How-To Page: that is, instruct users on how to do something. Tie their shoes, register to vote, gain more Twitter followers.
-* Use [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) to make this How-To Page responsive.
-* You may additionally use [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)–the two work well together, after all–but Grid should be the **primary** tool in creating responsiveness.
-* Follow the Webpack component architecture we've used on other labs.
-* **Sketch** your responsive layout and text structure before developing. These sketches can be rough.
-* Apply the principles of Chapter 3 of *Don't Make Me Think!* to make your page scan-friendly.
+Create a how-to page with vanilla js, component architecture, paging, responsive-layout, and using CSS grid layout.
 
-## Submission Instructions
-Submit pull request URL in Canvas, and include a .zip of your sketches.
+Steps Taken
+===
 
-Include the answers to the following in your submission:
+Find an article on the internet for content. Article borrowed from wikiHow.com. Create semantic HTML and accessible colors / layout. Apply grid to #wrapper content area, and then <ol> for the how-to steps. 
 
-* How long did you spend on this lab?
-* Describe the process you used to complete the lab.
-* What was the hardest and easiest part of the lab?
+Reflection / Changes
+===
 
-## Rubric
-* Sketches used to plan out responsive layout (2 points)
-* Webpack component architecture correctly applied (2 points)
-* CSS Grid used properly for cross-device legibility (4 points)
-* Information is designed to invite visual scanning (2 points)
-
-## Stretch goal
-* Implement a router and create multiple pages
+This is my first time working with CSS grid. This is a very simple layout and use of the grid, but I enjoy how precise it is in organization. I look forward to working with it in more projects.
