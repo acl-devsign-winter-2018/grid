@@ -1,0 +1,59 @@
+@import '../variables.css';
+
+.header {
+  grid-area: header;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  grid-template: auto 1fr auto;
+}
+
+header {
+  padding: 2rem;
+  background-color: $red;
+  color: $white;
+}
+
+main {
+  padding: 1rem 2rem;
+}
+
+footer {
+  padding: 2rem 2rem 1rem;
+  background-color: #eeeeee;
+  a {
+    border-bottom-color: $lightgray;
+  }
+  p {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+}
+
+.footerWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/*  -------- Media Queries ------- */
+
+/* Mobile */
+@media only screen and (min-width: 320px) and (max-width: 580px) {
+  
+}
+
