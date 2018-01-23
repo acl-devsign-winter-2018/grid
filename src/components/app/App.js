@@ -2,6 +2,7 @@ import Template from '../Template';
 import html from './app.html';
 import './app.css';
 import { removeChildren } from '../dom';
+import Header from './Header';
 
 const template = new Template(html);
 
@@ -11,11 +12,11 @@ const map = new Map();
 
 export default class App {
 
-  constructor() {
-    window.onhashchange = () => {
-      this.setPage();
-    };
-  }
+  // constructor() {
+  //   window.onhashchange = () => {
+  //     this.setPage();
+  //   };
+  // }
 
   // setPage() {
   //   const Component = map.get(window.location.hash) || Login;
@@ -30,7 +31,7 @@ export default class App {
     dom.querySelector('header').appendChild(new Header().render());
 
     this.main = dom.querySelector('main');
-    this.setPage();
+    // this.setPage();
 
     return dom;
   }
