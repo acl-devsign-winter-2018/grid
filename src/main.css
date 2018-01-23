@@ -1,0 +1,68 @@
+/* main.css */
+body {
+    font: 400 100%/1.4 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
+    color: #222222;
+    padding: 1rem;
+}
+h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+    
+}
+
+.main-head  {grid-area: header;}
+.content    {grid-area: content;}
+.main-nav   {grid-area: nav;}
+.side       {grid-area: sidebar;}
+.ad         {grid-area: ad;}
+.main-footer{grid-area: footer;}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    "header"
+    "nav"
+    "content"
+    "sidebar"
+    "ad"
+    "footer";
+}
+img {
+    max-width: 125px;
+    display: block;
+}
+.wrapper > * {
+    border: 2px solid #222222;
+    background-color: beige;
+    padding: 10px;
+}
+
+     nav ul {
+        display: flex;
+        justify-content: space-around;
+    } 
+        
+        .main-head {
+            font-family: 'Risque', cursive;
+            font-weight: bold;
+            text-align: center;
+        }
+        header ul{text-align: right;}
+
+        footer {
+            text-align: center;
+            font-size: .6rem;
+            padding: .5rem 0;
+          }
+          @media screen and (min-width: 700px) {
+            figure {
+                width: 50%;
+                margin: 0 1rem 0 0;
+                float: left;
+            }
+        }
