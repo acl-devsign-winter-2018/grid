@@ -2,14 +2,14 @@
 const HtmlPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './src/services/main.js',
   output: {
     filename: 'bundle.js',
     path: `${__dirname}/build`,
   },
   devtool: 'inline-source-map',
   plugins: [
-    new HtmlPlugin({ template: './src/index.html' }),
+    new HtmlPlugin({ template: './src/services/index.html' }),
   ],
   module: {
     rules: [
