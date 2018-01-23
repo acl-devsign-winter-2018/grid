@@ -5,12 +5,14 @@ import { removeChildren } from '../dom';
 import Header from './Header';
 import Beginning from '../pages/beginning/Beginning';
 import Saftey from '../pages/saftey/Saftey';
+import Improving from '../pages/improving/Improving';
 
 const template = new Template(html);
 
 const map = new Map();
 map.set('#beginning', Beginning);
 map.set('#saftey', Saftey);
+map.set('#improving', Improving);
 
 export default class App {
 
